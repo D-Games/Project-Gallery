@@ -16,9 +16,61 @@
     max-width: 500px;
     aspect-ratio: 1/1;
     display: flex;
+    position: relative;
 
 
     background-color: rgba(51, 51, 51, 0.25);
+}
+
+button {
+    width: 100%;
+    height: 25%;
+    position: absolute;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    font-size: 22px;
+    background-color: rgba(51, 51, 51, 0.75);
+    cursor: pointer;
+}
+
+.descDiv {
+    width: 100%;
+    height: 0%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    background-color: rgba(43, 43, 43, 0.75);
+
+}
+
+.descDiv p {
+    margin-top: -30%;
+    color: rgba(255, 255, 255, 0);
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.link-button {
+    width: 50%;
+    height: 10%;
+    margin-bottom: -20%;
+
+    background-color: rgba(15, 15, 15, 0.75);
+    color: rgba(255, 255, 255, 0);
+}
+
+.test {
+    position: relative;
+    width: 100px;
+    height: 50px;
+    background-color: aqua;
 }
 
 .child-img {

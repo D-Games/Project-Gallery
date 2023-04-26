@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/ProjectGallery.css">
+    <script src="js/main.js" defer></script>
 </head>
 <body>
 
@@ -32,16 +33,26 @@
     </div>
 
     <div class="gallery-container">
-        <nav class="project-card"><a href="#"><img class="child-img" src="img/Tips-For-an-Indie-Game-Developer.png" alt="Game dev image"></a></nav>
-        <nav class="project-card"><a href="#"><img class="child-img" src="img/movie data img.jpg" alt="popcorn and movie"></a></nav>
-        <nav class="project-card"><a href="#"><img class="child-img" src="img/My Head-shot B&W.png" alt="Picture of me"></a></nav>
-        <nav class="project-card"><a href="#"><img class="child-img" src="img/Ag1_09.jpg" alt="Gaming image"></a></nav>
-        <nav class="project-card"><a href="#"><img class="child-img" src="img/Station and Ship With Debris.jpg" alt="Screenshot of Clearing Space game"></a></nav>
-        <nav class="project-card"><a href="#"><img class="child-img" src="img/AH - The Outpost-01.png" alt="Greybox models of an arctic outpost"></a></nav>
-        <nav class="project-card"><a href="#"><img class="child-img" src="img/Virion Screenshot.png" alt="Stylised human cells game"></a></nav>
-        <nav class="project-card"><a href="#"><img class="child-img" src="img/Teleport_Thumbnail.png" alt="Swirling purple VFX"></a></nav>
-        <nav class="project-card"><a href="#"><img class="child-img" src="img/Header Image.jpg" alt="Futuristic Space Market"></a></nav>
-        <nav class="project-card"><a href="#"><img class="child-img" src="img/dmitry-popovichev-night-screenshot.jpg" alt="Primal camp at night "></a></nav>
+        <nav class="project-card"><img class="child-img" src="img/Tips-For-an-Indie-Game-Developer.png" alt="Game dev image"><button onclick="openDiv('descDiv1')" id="button1">Hobby Page Project</button><div class="descDiv" id="descDiv1"><p id="descText1">A quick dive into my game development hobby and some of the projects over the past three years.</p><button id="linkButton1" class="link-button"><a href="#">Take me there</a></button></div></nav>
+
+        <nav class="project-card"><img class="child-img" src="img/movie data img.jpg" alt="popcorn and movie"><button onclick="openDiv('descDiv2')" id="button2">Movie Data</Datag></Datag></button><div class="descDiv" id="descDiv2"><p id="descText2">Practising storing data in JS objects and showcasing a list of movies with addtional information.</p><button id="linkButton2" class="link-button"><a href="#">Take me there</a></button></div></nav>
+
+
+        <nav class="project-card"><img class="child-img" src="img/My Head-shot B&W.png" alt="Picture of me"><button onclick="openDiv('descDiv3')" id="button3">A Little Bit About Me</button><div class="descDiv" id="descDiv3"><p id="descText3">A page where I talk a bit about myself, my journey towards a career in software development and what I have learnt so far.</p><button id="linkButton3" class="link-button"><a href="#">Take me there</a></button></div></nav>
+
+        <nav class="project-card"><img class="child-img" src="img/Ag1_09.jpg" alt="Gaming image"><button onclick="openDiv('descDiv4')" id="button4">Game</button><div class="descDiv" id="descDiv4"><p id="descText4">Access my small browser game "#"</p><button id="linkButton4" class="link-button"><a href="#">Take me there</a></button></div></nav>
+
+        <nav class="project-card"><img class="child-img" src="img/Station and Ship With Debris.jpg" alt="Screenshot of Clearing Space game"><button onclick="openDiv('descDiv5')" id="button5">Clearing Space - A Mobile Game</button><div class="descDiv" id="descDiv5"><p id="descText5">Follow the link below to access my Artstation portfolio page for Clearing Space, a casual mobile game currently in development.</p><button id="linkButton5" class="link-button"><a href="#">Take me there</a></button></div></nav>
+
+        <nav class="project-card"><img class="child-img" src="img/AH - The Outpost-01.png" alt="Greybox models of an arctic outpost"><button onclick="openDiv('descDiv6')" id="button6">Arctic Horror - Developing in VR</button><div class="descDiv" id="descDiv6"><p id="descText6">Follow the link below to access my Artstation portfolio page for Arctic Horror, a concept of a game for VR.</p><button id="linkButton6" class="link-button"><a href="#">Take me there</a></button></div></nav>
+
+        <nav class="project-card"><img class="child-img" src="img/Virion Screenshot.png" alt="Stylised human cells game"><button onclick="openDiv('descDiv7')" id="button7">Virion: Prototype - Unreal Engine</button><div class="descDiv" id="descDiv7"><p id="descText7">Follow the link below to access my Artstation portfolio page for Virion: Prototype, a small prototype of a RTS game that can be found on itch.io.</p><button id="linkButton7" class="link-button"><a href="#">Take me there</a></button></div></nav>
+
+        <nav class="project-card"><img class="child-img" src="img/Teleport_Thumbnail.png" alt="Swirling purple VFX"><button onclick="openDiv('descDiv8')" id="button8">Mini VFX Project</button><div class="descDiv" id="descDiv8"><p id="descText8">Follow the link below to access my Artstation portfolio page for a learning project around game VFX in Unreal Engine.</p><button id="linkButton8" class="link-button"><a href="#">Take me there</a></button></div></nav>
+
+        <nav class="project-card"><img class="child-img" src="img/Header Image.jpg" alt="Futuristic Space Market"><button onclick="openDiv('descDiv9')" id="button9">Grand Space Opera - Interstellar Market</button><div class="descDiv" id="descDiv9"><p id="descText9">Follow the link below to access my Artstation portfolio page for Grand Space Opera: Interstellar Market, an Arstation challenge that I competed in in 2021.</p><button id="linkButton9" class="link-button"><a href="#">Take me there</a></button></div></nav>
+
+        <nav class="project-card"><img class="child-img" src="img/dmitry-popovichev-night-screenshot.jpg" alt="Primal camp at night "><button onclick="openDiv('descDiv0')" id="button0">Primal Camp - Unreal Engine</button><div class="descDiv" id="descDiv0"><p id="descText0">Follow the link below to access my Artstation portfolio page for another small learning excersise for game environments and foliage in Unreal Engine.</p><button id="linkButton0" class="link-button"><a href="#">Take me there</a></button></div></nav>
     </div>
     
     <div class="spacer"></div>
