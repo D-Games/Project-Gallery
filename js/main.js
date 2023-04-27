@@ -30,7 +30,7 @@ document.getElementById("date-time").innerHTML=dt;
 
       }
 
-
+ 
 /* CODE THAT DIDN'T WORK
 window.addEventListener("load", function() {
   hideDescText();
